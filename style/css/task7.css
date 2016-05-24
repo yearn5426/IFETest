@@ -1,0 +1,224 @@
+* {
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+#container {
+    min-width: 900px;
+}
+#nav {
+    line-height: 50px;
+    height: 50px;
+    font-size: 0;
+    margin-bottom: 1px;
+}
+#nav img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+#nav span {
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+#nav ul {
+    float: right;
+    height: 50px;
+    margin-right: 40px;
+}
+#nav ul li {
+    vertical-align: top;
+    display: inline-block;
+    width: 5em;
+    text-align: center;
+}
+#nav a {
+    display: inline-block;
+    width: 5em;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    background-image: url(../images/task7/nav_back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 0 3px;
+}
+#nav a:hover {
+    color: #e7504d;
+    background-size: 75px 3px;
+    transition: background 0.3s;
+}
+#login {
+    margin-left: 3px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+}
+#login img {
+    vertical-align: text-bottom;
+    width: 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+#login span {
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: normal;
+    color: #e7504d;
+}
+#nav ul li .now {
+    color: #e7504d;
+    background-size: 75px 3px;
+}
+#banner {
+    height: 690px;
+    background-image: url(../images/task7/banner_img.jpg);
+    background-size: cover;
+}
+#banner div {
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 200px;
+}
+#banner h1 {
+    color: white;
+    font-size: 4.5em;
+    font-weight: lighter;
+    line-height: 1.8em;
+}
+#banner p {
+    font-size: 1.3em;
+    color: white;
+    line-height: 1.5em;
+}
+#banner a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 2.1em;
+    letter-spacing: 4px;
+    padding:0.2em 2.6em;
+    margin-top: 60px;
+    background-color: #e7504d;
+}
+#banner a:hover {
+    background-color: white;
+    color: #e7504d;
+    transition: all 0.6s;
+}
+#intro {
+    height: 290px;
+    color: grey;
+}
+#intro li {
+    display: inline-block;
+    width: 24.6%;
+    text-align: center;
+}
+#intro li img {
+    display: block;
+    margin:65px auto;
+}
+#intro li span {
+    display: inline-block;
+    border-right: 2px solid grey;
+    width: 100%;
+    height: 2.5em;
+    padding:0.4em 0;
+}
+#intro li:last-of-type span {
+    border-right: 0;
+}
+#logo {
+    background-color: #ededed;
+    height: 280px;
+    padding-top: 90px;
+    text-align: center;
+}
+#logo img {
+    overflow: hidden;
+    display: block;
+    margin:0 auto 40px auto;
+}
+#logo span {
+    font-size: 4em;
+    color: grey;
+}
+#search {
+    height: 341px;
+    background-image: url(../images/task7/search_back.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#search h2 {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: lighter;
+    width: 1.2em;
+    white-space: nowrap;
+    text-indent: -4.9em;
+    line-height: 2em;
+    margin-top:40px;
+    margin-bottom: 0.6em;
+    border-bottom: 2px solid white;
+}
+.searchOption {
+    display: inline-block;
+    vertical-align: top;
+    margin-top:60px;
+    width: 272px;
+    cursor: pointer;
+}
+#search div span {
+    color: grey;
+    display: inline-block;
+    width: 260px;
+    padding: 8px 0;
+    padding-left: 10px;
+    background-color: white;
+    text-align: left;
+    background-image: url(../images/task7/select_back.png);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    border: 1px solid grey;
+}
+#search div .spanHover {
+    border: 1px solid #e7504d;
+}
+#search div .spanClick {
+    border: 1px solid #e7504d;
+    border-bottom: 0;
+}
+#search ul {
+    display: inline-block;
+    overflow: hidden;
+    height: 0;
+}
+#search .ulShow{
+    height: auto;
+    max-height: 300px;
+    width: 270px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #ededed;
+    border:1px solid #e7504d;
+    color: grey;
+}
+#search ul li {
+    display: block;
+    text-align: left;
+    padding: 5px 0 5px 38px;
+}
+#search ul .liHover {
+    background-color: #e7504d;
+    color: white;
+}
+#activity {
+    height: 200px;
+    background-color: grey;
+}
