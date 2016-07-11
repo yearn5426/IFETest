@@ -5,7 +5,7 @@
     font-family: "Microsoft YaHei", sans-serif;
 }
 #container {
-    min-width: 1050px;
+    min-width: 1150px;
 }
 #nav {
     line-height: 50px;
@@ -269,4 +269,13 @@
 }
 #activity p {
     color: grey;
+}
+#world {
+    height: 566px;
+}
+#world .left{
+    background-image: url(../images/task7/wrold_bac.jpg);
+    background-size:cover;
+    width: 60%;
+    height: 566px;
 }
