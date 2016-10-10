@@ -6,6 +6,8 @@
 }
 #container {
     min-width: 1150px;
+    max-width: 1500px;
+    margin:0 auto;
 }
 #nav {
     line-height: 50px;
@@ -274,8 +276,105 @@
     height: 566px;
 }
 #world .left{
+    position: relative;
     background-image: url(../images/task7/wrold_bac.jpg);
     background-size:cover;
-    width: 60%;
+    width: 70%;
     height: 566px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin:0;
+}
+#world h1{
+    display: block;
+    font-weight: 100;
+    font-size: 12em;
+    line-height: 1em;
+}
+#world h2{
+    display: block;
+    font-weight: 100;
+    font-size: 3em;
+    line-height: 1em;
+    padding-top: 100px;
+}
+#world p{
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 2em;
+}
+#world .left:after{
+    content: "";
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 49%;
+    right: 0;
+    border:20px solid transparent;
+    border-right-width: 34px;
+    border-right-color: white;
+}
+#world .right{
+    width: 30%;
+    height: 566px;
+    text-align: center;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#world .right p{
+    margin:60px 20px;
+    font-size: 15px;
+    color: grey;
+}
+#world .right h3{
+    font-size: 20px;
+}
+#world .right h3 span{
+    color: red;
+    font-size: 20px;
+}
+#world .right button{
+    background: white;
+    border:1px solid red;
+    padding:5px 20px;
+    color: red;
+    width: 120px;
+    margin-bottom: 60px;
+}
+#world .right .slide-circle{
+    width: 8px;
+    height: 8px;
+    border:1px solid grey;
+    border-radius: 4px;
+    position: relative;
+    font-size: 0;
+}
+#world .right .slide-circle:before{
+    position: absolute;
+    display: inline-block;
+    top: -1px;
+    left:-15px;
+    content: "";
+    background: grey;
+    width: 8px;
+    height: 8px;
+    border:1px solid grey;
+    border-radius: 4px;
+}
+#world .right .slide-circle:after{
+    position: absolute;
+    display: inline-block;
+    top: -1px;
+    right:-15px;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border:1px solid grey;
+    border-radius: 4px;
 }
